@@ -13,7 +13,7 @@
   justify-content: center; 
   align-items: center; 
   flex-grow: 1; 
-  padding: 20px;
+ 
   width: 100%;  /* Assurez-vous que le conteneur prend toute la largeur */
 }
 @media (max-width: 768px) {
