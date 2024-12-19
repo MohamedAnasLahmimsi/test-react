@@ -26,7 +26,7 @@ function Footer() {
             </div>
           </div>
           <div className="cop">
-            <p>&copy; 2024 Lahmimsi Mohamed Anas. Tous droits réservés.</p>
+            <p>&copy; 2024 Lahmimsi Mohamed Anas.</p>
           </div>
         </div>
       </div>
