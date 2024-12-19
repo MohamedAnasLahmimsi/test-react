@@ -4,7 +4,7 @@
     justify-content: space-between; 
     align-items: center; 
   
-    height: 129px;
+    height: 100px;
     background: #D9D9D9;
     padding: 0 20px; 
     
@@ -26,8 +26,8 @@
 }
 .logoReact{
 
-    width: 206px;
-    height: 206px;
+    width: 190px;
+    height: 190px;
     padding-right: 50px;
 
 }
