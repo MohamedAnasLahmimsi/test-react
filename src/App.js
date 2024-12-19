@@ -7,12 +7,15 @@ import Footer from './Footer';
 function App() {
   return (
     <div className="App">
-      <Header />
+      <div> 
+        <Header />
+      </div> 
       <div className='compteur'>
         <Count />
-      </div>  
-      <Footer />
-      
+      </div> 
+      <div className='footerr'>
+        <Footer />
+      </div> 
     </div>
   );
 }
