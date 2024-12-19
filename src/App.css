@@ -1,6 +1,6 @@
 .App-header {
   background-color: #282c34;
-  height: auto; /* Changez min-height par height auto */
+  height: auto; 
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -14,19 +14,19 @@
   align-items: center; 
   flex-grow: 1; 
  
-  width: 100%;  /* Assurez-vous que le conteneur prend toute la largeur */
+  width: 100%;  
 }
 @media (max-width: 768px) {
   .App-logo {
-    height: 8rem; /* Plus petit logo sur les petits écrans */
+    height: 8rem;
   }
 
   .App-header {
-    font-size: calc(8px + 2vmin); /* Réduire la taille du texte */
+    font-size: calc(8px + 2vmin); 
   }
 }
 .footerr {
-  margin-top: auto; /* Pour le coller en bas sur les écrans plus grands */
+  margin-top: auto; 
   
   background-color: #333;
   color: white;

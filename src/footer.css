@@ -3,7 +3,7 @@
   width: 100%;
   background: #f4f4f4;
   bottom: 0;
-  padding: 10px 0; /* Réduit le padding vertical */
+  padding: 10px 0; 
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,20 +18,20 @@
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
-  gap: 15px; /* Réduit l'espace entre les éléments */
+  gap: 15px; 
 }
 
 .description {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 10px; /* Réduit l'espace entre l'image et le texte */
+  gap: 10px; 
   flex: 1;
-  min-width: 250px; /* Réduit la largeur minimale */
+  min-width: 250px; 
 }
 
 .imageA {
-  width: 70px; /* Réduit la taille de l'image */
+  width: 70px; 
   height: 70px;
   border-radius: 50%;
   object-fit: cover;
@@ -44,7 +44,7 @@
 
 .nom {
   font-family: 'Inter', sans-serif;
-  font-size: 18px; /* Réduit la taille de la police */
+  font-size: 18px; 
   font-weight: bold;
   margin: 0;
   color: #222;
@@ -52,7 +52,7 @@
 
 .desc {
   font-family: 'Inter', sans-serif;
-  font-size: 13px; /* Réduit la taille de la police */
+  font-size: 13px; 
   color: #555;
   line-height: 1.4;
   margin-top: 5px;
@@ -61,7 +61,7 @@
 
 .separateur {
   width: 1px;
-  height: 60px; /* Réduit la hauteur du séparateur */
+  height: 60px; 
   background-color: #222;
   flex-shrink: 0;
 }
@@ -69,14 +69,14 @@
 .contact {
   display: flex;
   flex-direction: column;
-  gap: 6px; /* Réduit l'espace entre les éléments de contact */
+  gap: 6px; 
   flex: 1;
   min-width: 250px;
 }
 
 .contact p {
   font-family: 'Inter', sans-serif;
-  font-size: 13px; /* Réduit la taille de la police */
+  font-size: 13px; 
   color: #333;
   margin: 0;
 }
@@ -92,8 +92,8 @@
 
 .cop {
   text-align: center;
-  margin-top: 10px; /* Réduit l'espace entre la partie contact et le copyright */
+  margin-top: 10px; 
   font-family: 'Inter', sans-serif;
-  font-size: 10px; /* Réduit la taille de la police */
+  font-size: 10px; 
   color: #888;
 }
