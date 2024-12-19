@@ -1,0 +1,129 @@
+/* Styles de la structure générale */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centrer verticalement */
+    align-items: center; /* Centrer horizontalement */
+    height: 100%; /* Remplir l'espace disponible */
+    padding: 20px;
+    margin-top: 0;
+  }
+  
+  /* Styles pour l'ellipse */
+  .ellipse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 272px;
+    height: 257px;
+    background: #D9D9D9;
+    border-radius: 50%;
+    margin-top: 20px; /* Espacement au-dessus */
+    position: relative;
+  }
+  
+  .ellipse:hover {
+    box-shadow: inset 41px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  /* Styles pour le compteur */
+  .count {
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    font-size: 64px;
+    line-height: 77px;
+    color: black;
+    text-align: center;
+  }
+  
+  .count.null {
+    color: black;
+  }
+  
+  .positif {
+    color: #1134E2;
+  }
+  
+  .negatif {
+    color: #EB1111;
+  }
+  
+  /* Styles pour les boutons */
+  .controls {
+    display: flex;
+    gap: 20px; /* Espacement entre les boutons */
+    margin-top: 20px; /* Espacement entre l'ellipse et les boutons */
+  }
+  
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .moins {
+    background: #EB1111;
+  }
+  
+  .plus {
+    background: #1134E2;
+  }
+  
+  .signe {
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    color: white;
+  }
+  
+  .button:hover {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border: 4px solid black;
+  }
+  
+  /* Media Queries pour petits écrans */
+  @media (max-width: 768px) {
+    .container {
+      height: auto; /* Adapte la hauteur pour éviter de dépasser */
+      gap: 15px;
+    }
+  
+    .ellipse {
+      width: 60%; /* Prend une plus grande partie de l'écran */
+      height: auto; /* La hauteur s'ajuste automatiquement */
+    }
+  
+    .controls {
+      flex-direction: column; /* Empile les boutons verticalement */
+      gap: 15px; /* Espacement vertical entre les boutons */
+      width: 100%; /* Adapte la largeur aux petits écrans */
+    }
+  
+    .button {
+      width: 80%; /* Les boutons prennent presque toute la largeur */
+      max-width: none; /* Retire la limite de largeur */
+      min-width: 80px; /* Assure une taille lisible */
+      height: 80px;
+    }
+  
+    .count {
+      font-size: 4rem; /* Réduit la taille du texte sur les petits écrans */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .count {
+      font-size: 2rem; /* Réduit encore plus la taille du texte */
+    }
+  
+    .button {
+      font-size: 2rem; /* Réduit la taille du texte des boutons */
+      width: 70%; /* Les boutons prennent plus de place */
+      height: 70px;
+    }
+  }
+  

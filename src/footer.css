@@ -1,0 +1,100 @@
+.footer-div {
+    position: absolute;
+    width: 100%;
+    background: #f4f4f4; /* Légèrement plus clair pour un fond moins saturé */
+    bottom: 0;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .global {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 30px; /* Espacement entre les sections */
+  }
+  
+  .description {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px; /* Espacement entre l'image et le texte */
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .imageA {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .texte {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .nom {
+    font-family: 'Inter', sans-serif;
+    font-size: 22px; /* Augmenter légèrement la taille du nom */
+    font-weight: bold;
+    margin: 0;
+    color: #222; /* Couleur plus foncée pour le nom */
+  }
+  
+  .desc {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: #555; /* Couleur plus douce pour la description */
+    line-height: 1.6;
+    margin-top: 5px;
+    text-align: justify; /* Améliore la lisibilité du texte */
+  }
+  
+  .separateur {
+    width: 1px;
+    height: 100px;
+    background-color: #222; /* Plus foncé pour le séparateur */
+    flex-shrink: 0; /* Assure que le séparateur ne rétrécit pas */
+  }
+  
+  .contact {
+    display: flex;
+    flex-direction: column;
+    gap: 8px; /* Espacement entre les lignes de contact */
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .contact p {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #333; /* Couleur plus douce pour les informations de contact */
+    margin: 0;
+  }
+  
+  .contact a {
+    color: #007BFF; /* Couleur des liens */
+    text-decoration: none;
+  }
+  
+  .contact a:hover {
+    text-decoration: underline;
+  }
+  
+  .cop {
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    color: #888; /* Couleur moins marquante pour le copyright */
+  }
+  
