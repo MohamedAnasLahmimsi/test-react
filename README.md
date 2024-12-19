@@ -19,10 +19,10 @@ Before proceeding, ensure you have the following installed on your system:
 Use the following command to clone the repository to your local machine:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/MohamedAnasLahmimsi/test-react.git
 ```
 
-Replace `<repository-url>` with the actual URL of the GitHub repository.
+
 
 ### 2. Navigate to the Project Directory
 
