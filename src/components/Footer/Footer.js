@@ -1,6 +1,6 @@
 import React from "react";
 import './footer.css';
-import anas from './assets/images/anas.jpeg';
+import anas from '../../assets/images/anas.jpeg';
 
 function Footer() {
     return (

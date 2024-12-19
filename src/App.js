@@ -1,8 +1,8 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Count from './Count';
-import Header from './Header';
-import Footer from './Footer';
+import Count from './components/Count/Count';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (

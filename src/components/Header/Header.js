@@ -1,7 +1,7 @@
 import React from "react";
 import './header.css';
-import smarteez from './assets/images/smarteez.png';
-import reactjs from './assets/images/reactjs.png';
+import smarteez from '../../assets/images/smarteez.png';
+import reactjs from '../../assets/images/reactjs.png';
 
 function Header() {
     return (
