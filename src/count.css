@@ -59,9 +59,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100px;
+    width: 150px;
     height: 100px;
-    border-radius: 50%;
+    border-radius: 5%;
     cursor: pointer;
     transition: all 0.3s ease;
   }
