@@ -1,17 +1,17 @@
 .App {
   display: flex;
-  flex-direction: column;  /* Utilisation du mode colonne pour une disposition verticale */
-  justify-content: space-between; /* L'espace entre le header et le footer est distribué */
-  min-height: 100vh; /* Prendre toute la hauteur de la fenêtre */
+  flex-direction: column;  
+  justify-content: space-between; 
+  min-height: 100vh; 
   width: 100%;
 }
 
 .compteur {
  
-  justify-content: center; /* Centrer horizontalement */
-  align-items: center; /* Centrer verticalement */
-  flex-grow: 1; /* Prendre tout l'espace restant entre le header et le footer */
-  padding: 20px; /* Ajouter de l'espace autour du compteur */
+  justify-content: center; 
+  align-items: center; 
+  flex-grow: 1; 
+  padding: 20px; 
 }
 
 .App-logo {

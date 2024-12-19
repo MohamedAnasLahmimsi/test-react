@@ -1,15 +1,15 @@
-/* Styles de la structure générale */
+
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Centrer verticalement */
-    align-items: center; /* Centrer horizontalement */
-    height: 100%; /* Remplir l'espace disponible */
+    justify-content: center; 
+    align-items: center; 
+    height: 100%; 
     padding: 20px;
     margin-top: 0;
   }
   
-  /* Styles pour l'ellipse */
+  
   .ellipse {
     display: flex;
     justify-content: center;
@@ -18,7 +18,7 @@
     height: 257px;
     background: #D9D9D9;
     border-radius: 50%;
-    margin-top: 20px; /* Espacement au-dessus */
+    margin-top: 20px; 
     position: relative;
   }
   
@@ -51,8 +51,8 @@
   /* Styles pour les boutons */
   .controls {
     display: flex;
-    gap: 20px; /* Espacement entre les boutons */
-    margin-top: 20px; /* Espacement entre l'ellipse et les boutons */
+    gap: 20px; 
+    margin-top: 20px; 
   }
   
   .button {
@@ -85,44 +85,44 @@
     border: 4px solid black;
   }
   
-  /* Media Queries pour petits écrans */
+  
   @media (max-width: 768px) {
     .container {
-      height: auto; /* Adapte la hauteur pour éviter de dépasser */
+      height: auto; 
       gap: 15px;
     }
   
     .ellipse {
-      width: 60%; /* Prend une plus grande partie de l'écran */
-      height: auto; /* La hauteur s'ajuste automatiquement */
+      width: 60%; 
+      height: auto; 
     }
   
     .controls {
-      flex-direction: column; /* Empile les boutons verticalement */
-      gap: 15px; /* Espacement vertical entre les boutons */
-      width: 100%; /* Adapte la largeur aux petits écrans */
+      flex-direction: column; 
+      gap: 15px; 
+      width: 100%; 
     }
   
     .button {
-      width: 80%; /* Les boutons prennent presque toute la largeur */
-      max-width: none; /* Retire la limite de largeur */
-      min-width: 80px; /* Assure une taille lisible */
+      width: 80%; 
+      max-width: none; 
+      min-width: 80px; 
       height: 80px;
     }
   
     .count {
-      font-size: 4rem; /* Réduit la taille du texte sur les petits écrans */
+      font-size: 4rem; 
     }
   }
   
   @media (max-width: 480px) {
     .count {
-      font-size: 2rem; /* Réduit encore plus la taille du texte */
+      font-size: 2rem; 
     }
   
     .button {
-      font-size: 2rem; /* Réduit la taille du texte des boutons */
-      width: 70%; /* Les boutons prennent plus de place */
+      font-size: 2rem; 
+      width: 70%; 
       height: 70px;
     }
   }
