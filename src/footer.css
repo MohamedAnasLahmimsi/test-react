@@ -1,100 +1,99 @@
 .footer-div {
-    position: absolute;
-    width: 100%;
-    background: #f4f4f4; 
-    bottom: 0;
-    padding: 20px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .global {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-    gap: 30px; 
-  }
-  
-  .description {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 15px; 
-    flex: 1;
-    min-width: 300px;
-  }
-  
-  .imageA {
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-    object-fit: cover;
-  }
-  
-  .texte {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .nom {
-    font-family: 'Inter', sans-serif;
-    font-size: 22px; 
-    font-weight: bold;
-    margin: 0;
-    color: #222; 
-  }
-  
-  .desc {
-    font-family: 'Inter', sans-serif;
-    font-size: 15px;
-    color: #555; 
-    line-height: 1.6;
-    margin-top: 5px;
-    text-align: justify; 
-  }
-  
-  .separateur {
-    width: 1px;
-    height: 100px;
-    background-color: #222; 
-    flex-shrink: 0; 
-  }
-  
-  .contact {
-    display: flex;
-    flex-direction: column;
-    gap: 8px; 
-    flex: 1;
-    min-width: 300px;
-  }
-  
-  .contact p {
-    font-family: 'Inter', sans-serif;
-    font-size: 14px;
-    color: #333;
-    margin: 0;
-  }
-  
-  .contact a {
-    color: #007BFF; 
-    text-decoration: none;
-  }
-  
-  .contact a:hover {
-    text-decoration: underline;
-  }
-  
-  .cop {
-    text-align: center;
-    margin-top: 15px;
-    font-family: 'Inter', sans-serif;
-    font-size: 12px;
-    color: #888; 
-  }
-  
+  position: absolute;
+  width: 100%;
+  background: #f4f4f4;
+  bottom: 0;
+  padding: 10px 0; /* Réduit le padding vertical */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.global {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 15px; /* Réduit l'espace entre les éléments */
+}
+
+.description {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px; /* Réduit l'espace entre l'image et le texte */
+  flex: 1;
+  min-width: 250px; /* Réduit la largeur minimale */
+}
+
+.imageA {
+  width: 70px; /* Réduit la taille de l'image */
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.texte {
+  display: flex;
+  flex-direction: column;
+}
+
+.nom {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px; /* Réduit la taille de la police */
+  font-weight: bold;
+  margin: 0;
+  color: #222;
+}
+
+.desc {
+  font-family: 'Inter', sans-serif;
+  font-size: 13px; /* Réduit la taille de la police */
+  color: #555;
+  line-height: 1.4;
+  margin-top: 5px;
+  text-align: justify;
+}
+
+.separateur {
+  width: 1px;
+  height: 60px; /* Réduit la hauteur du séparateur */
+  background-color: #222;
+  flex-shrink: 0;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 6px; /* Réduit l'espace entre les éléments de contact */
+  flex: 1;
+  min-width: 250px;
+}
+
+.contact p {
+  font-family: 'Inter', sans-serif;
+  font-size: 13px; /* Réduit la taille de la police */
+  color: #333;
+  margin: 0;
+}
+
+.contact a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+.cop {
+  text-align: center;
+  margin-top: 10px; /* Réduit l'espace entre la partie contact et le copyright */
+  font-family: 'Inter', sans-serif;
+  font-size: 10px; /* Réduit la taille de la police */
+  color: #888;
+}
